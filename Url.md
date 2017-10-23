@@ -5,3 +5,4 @@
 |<sub>Computing</sub>|<sub>Visual Web Development</sub>|<sub>https://tnw.to/2y2wWjS</sub>|
 |<sub>Living</sub>|<sub>Cork Flooring</sub>|<sub>http://tamil.thehindu.com/society/real-estate/article19809581.ece</sub>|
 |<sub>Fashion</sub>|<sub>Embroidering</sub>|<sub>http://www.mridulas.com</sub>|
+|<sub>Energy</sub>|<sub>Solar</sub>|<sub>https://tamil.yourstory.com/read/ab623dc294/the-deck-30start-urge</sub>|
