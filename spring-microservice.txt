@@ -1,0 +1,10 @@
+
+OAuth 2.0
+----------
+1. Resource Owner
+2. Resource Server
+3. Client
+4. Authorization Server
+
+Jargons - Access Token, Refresh Token ( renew access token), Scope (permission), Client Id/Secret, OpenId Connect, JWT
+
