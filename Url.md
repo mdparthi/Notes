@@ -7,3 +7,4 @@
 |<sub>Fashion</sub>|<sub>Embroidering</sub>|<sub>http://www.mridulas.com</sub>|
 |<sub>Energy</sub>|<sub>Solar</sub>|<sub>https://tamil.yourstory.com/read/ab623dc294/the-deck-30start-urge</sub>|
 |<sub>Computing</sub>|<sub>Design</sub>|<sub>https://tnw.to/2Dn81Ho</sub>|
+|<sub>Computing</sub>|<sub>Network</sub>|<sub>https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/</sub>|
