@@ -1,0 +1,55 @@
+<html>
+
+<head>
+
+<!-- Angular Material Dependencies -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+   
+<script type='text/javascript'>
+
+var myevents = angular.module("myApp", []);
+
+myevents.controller('UsersControllerHome', function($scope, $http) {
+				    console.log('test');
+					$scope.method = 'GET';
+					$scope.url = 'http://post.lyricsopedia.com:8080/LopWebDev/LopRest/getTamilLyrics?total=12';
+					$scope.dataLoaded=false;
+					$scope.tamil = {};
+					$http({
+						method : $scope.method,
+						url : $scope.url
+					}).success(function(data, status) {
+					
+						$scope.tamil.latest = data;
+						$scope.dataLoaded=true;
+					}).error(function(data, status) {
+						console.log(status);
+					});					
+					
+				});
+
+	 </script>
+</head>
+
+<body>
+<div  ng-app="myApp">
+
+	<div class="container" ng-show="dataLoaded" ng-controller="UsersControllerHome">
+		<div id="userListHomePage" class="col-sm-12">
+			<ul class="row">
+				<li  dir-paginate="x in tamil.latest | itemsPerPage:12" 
+					 class="boxcard col-lg-2 col-md-2 col-sm-4 col-xs-4 divthumb">
+					<a href="{{x.postUrl}}">				
+						<div class="container">
+						   <center> <h5>{{x.songName}}</h5></center>
+						</div>					
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>			
+        
+</div>
+
+</body>
+</html>
