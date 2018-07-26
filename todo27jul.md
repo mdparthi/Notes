@@ -5,3 +5,6 @@
 - String pool
 - Collections
 - Streams, Lambda
+
+------
+- https://thecuriousdev.org/achieve-thread-safety-immutability/
