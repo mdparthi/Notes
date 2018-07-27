@@ -5,6 +5,20 @@
 - String pool
 - Collections
 - Streams, Lambda
+- use of Annotation and how it works
 
 ------
 - https://thecuriousdev.org/achieve-thread-safety-immutability/
+
+-------
+- Design Pattern
+- Creational Pattern
+ - Singleton
+ - Factory Method
+ - Abstract Factory
+ - Builder
+ - Dependency Injection
+
+- Structural Pattern
+ - Adapter Pattern
+ - Decorator Pattern
