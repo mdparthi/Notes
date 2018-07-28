@@ -49,13 +49,27 @@
     - Hypertest conatins Hyperlinks
     - traditional    
         - eg. weartherinfo.com/weathersearch.do?pin=12345 ( it is not resource based, but it is action based)
+        - simply evnet driven as links makes the respective call
     - Resource based uri
         - eg. weatherinfo.com/pin/12345
-    - HTTP Methods
-        - GET, POST, PUT, DELETE
+        - consumer of rest api has to know the uri's
+    - HTTP Methods : GET, POST, PUT, DELETE, HEAD, POSITIONS
     - Metadata
         - HTTP Status Codes ( 200 - success, 501- Internsl server, 404 - not found)
     - Format
         - xml, json, txt usually added to HTTP Header usint "content-type"
         - content negotiation ( when server responds with client request specific format )
-        
+    - Designing of messenger application
+    - Resource uri's ( instance uri's & collection uri's)
+        - instance uri's has unique id's
+        - common uri entities (eg. /messages/{messageId}, /profiles/{profileId}) first level entity
+        - best practise : think of resource as a static calls , nouns in the resources
+        - resource relations ( messages and comments) 
+        - eg. /messages/{messageId}/comments/{commentId} /messages/1/comments/2 second level entity
+     - Collection Uri's
+        - /messages, /messages/{messageId}/comments  ( all messages and all comments)
+        - filter or paginate : /messages?offset=30&limit=10 ( standard way to provide filer is using query params)
+        - filter : /messages?year=2014&offset=30&limit=10
+     - HTTP Methods 
+        - /getMessages.do?id=10 is action based not like Restful /messages/10
+        - Use right http method for the right operation
