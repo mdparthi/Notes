@@ -20,5 +20,7 @@
  - Dependency Injection
 
 - Structural Pattern
- - Adapter Pattern
- - Decorator Pattern
+  - Adapter Pattern
+  - Decorator Pattern
+  - Facade Pattern
+  - Proxy Pattern  ( need to understand more example)
