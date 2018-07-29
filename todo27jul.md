@@ -46,7 +46,7 @@
     - SOAP webservice follows SOAP Specification | for REST there are no speification
  - REST : REpresentational state Transfer an architectural style
     - Rest follows most of the HTTP Specification
-    - Hypertest conatins Hyperlinks
+    - Hypertext conatins Hyperlinks
     - traditional    
         - eg. weartherinfo.com/weathersearch.do?pin=12345 ( it is not resource based, but it is action based)
         - simply evnet driven as links makes the respective call
