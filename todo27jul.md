@@ -81,3 +81,19 @@
         - Non-Repeatable Operation ( POST eg. multiple call may create duplicate information) are NOT IDEMPOTENT
      - HTTP Response 
         - HTTP Content, Response ( xml, json)
+        
+     - Richardson Maturity Model
+        - Level 0 (Swamp of POX)
+            - One URI for all the operations
+            - Request body contains all the details 
+        - Level 1
+            - Resource URI per message , per profile
+        - Level 2
+            - Using different HTTP Methods and status codes accordingly
+        - Level 3
+            - Implementing the HATEOAS ( Response has links that client can use)
+     - JaxRs ( Jersey, RESTeasy, RESTlet)
+        - contains interfaces and annotations from the package javax.ws.rs
+        - Jersey is the Reference Implementation
+        
+            
