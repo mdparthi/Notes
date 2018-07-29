@@ -73,3 +73,11 @@
      - HTTP Methods 
         - /getMessages.do?id=10 is action based not like Restful /messages/10
         - Use right http method for the right operation
+     - Idempotence
+        - GET : read only | nothing happens for multiple request and it is safe
+        - PUT,POST,DELETE : write | most of the time it can be called multiple times
+        - eg. count = 100; though we repeat it does not make any change
+        - Repeatable Operation ( GET, DELETE eg. deleting a message (/message/id ,  same with PUT) are IDEMPOTENT
+        - Non-Repeatable Operation ( POST eg. multiple call may create duplicate information) are NOT IDEMPOTENT
+     - HTTP Response 
+        - HTTP Content, Response ( xml, json)
