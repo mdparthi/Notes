@@ -111,4 +111,9 @@
         - contains interfaces and annotations from the package javax.ws.rs
         - Jersey is the Reference Implementation
         
+ *Lambda Expression*
+    - Functional Programming
+    - Anonymous class
+    - Type Inference
+        
             
