@@ -81,6 +81,21 @@
         - Non-Repeatable Operation ( POST eg. multiple call may create duplicate information) are NOT IDEMPOTENT
      - HTTP Response 
         - HTTP Content, Response ( xml, json)
+        - Headers and Message Body
+        - Headers : Message Length, Data, Content Type
+     - Status Codes
+        - 200 : OK , 404 : Not Found, starts from 100 to 599
+        - Code starts with 1xx : Information , 2xx : Success, 200 : OK, 201 : Created, 204 : No Content
+        - 3xx : Redirects , 302 : Found, 307 : Temp Redirect, 304 : Not Modified
+        - 4xx : Client Error, 400 : Bad Request, 401 - UnAutorized, 403 - Forbidden, 404 : Not Found , 415 - Unsuported media type
+        - 5xx : Server Errror, 500:Internal Server Error, 
+     - HATEOAS : Hypermedia As The Engine Of Application State
+        - similar to hyperlinks to navigate to different page
+        - for Restful webservice we can include the additoinal uri's in the response
+        - eg. { commentUri : "/messages/10/comments" }
+        - or { href : "messages/1" }
+        - rel (relational) attribute 
+        - add new property to json called " links " 
         
      - Richardson Maturity Model
         - Level 0 (Swamp of POX)
