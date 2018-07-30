@@ -1,4 +1,5 @@
 - static inner class
+- serialization
 - derive abstract factory example from project
 - why to make method arguments and variables as final
 - immutable and mutable
