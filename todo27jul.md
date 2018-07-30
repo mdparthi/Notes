@@ -10,6 +10,7 @@
 
 ------
 - https://thecuriousdev.org/achieve-thread-safety-immutability/
+- https://www.javaworld.com/article/2072752/the-java-serialization-algorithm-revealed.html
 
 -------
 *Design Pattern*
