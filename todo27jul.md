@@ -13,7 +13,7 @@
 - https://thecuriousdev.org/achieve-thread-safety-immutability/
 - https://www.javaworld.com/article/2072752/the-java-serialization-algorithm-revealed.html
 - https://www.mkyong.com/java/java-custom-annotations-example/
-
+- http://www.baeldung.com/java-collections-interview-questions
 -------
 *Design Pattern*
 - Creational Pattern
