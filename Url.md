@@ -8,3 +8,4 @@
 |<sub>Energy</sub>|<sub>Solar</sub>|<sub>https://tamil.yourstory.com/read/ab623dc294/the-deck-30start-urge</sub>|
 |<sub>Computing</sub>|<sub>Design</sub>|<sub>https://tnw.to/2Dn81Ho</sub>|
 |<sub>Computing</sub>|<sub>Network</sub>|<sub>https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/</sub>|
+|<sub>Computing</sub>|<sub>Notepad++</sub>|<sub>https://medium.com/@heitorhherzog/compare-sort-and-delete-duplicate-lines-in-notepad-2d1938ed7009</sub>|
