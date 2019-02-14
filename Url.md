@@ -11,3 +11,5 @@
 |<sub>Computing</sub>|<sub>Notepad++</sub>|<sub>https://medium.com/@heitorhherzog/compare-sort-and-delete-duplicate-lines-in-notepad-2d1938ed7009</sub>|
 |<sub>Computing</sub>|<sub>SAAS</sub>|<sub>https://hackernoon.com/how-to-build-a-saas-with-0-fed2341078c8</sub>|
 |<sub>Computing</sub>|<sub>JAVA</sub>|<sub>https://www.romexsoft.com/blog/improve-java-code-quality</sub>|
+|<sub>Computing</sub>|<sub>Remote Work</sub>|<sub>https://remotewise.io/</sub>|
+
